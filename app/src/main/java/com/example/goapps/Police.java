@@ -10,9 +10,9 @@ import android.widget.ListView;
 public class Police extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRS = new String []{"Polresta Pekanbaru", "Polsek Pekanbaru Kota",
+        String[] listPolice = new String []{"Polresta Pekanbaru", "Polsek Pekanbaru Kota",
                 "Polda Riau", "Ditlantas Polda Riau"};
-        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listRS));
+        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listPolice));
     }
 
     protected  void onListItemClick (ListView l, View v, int position, long id){

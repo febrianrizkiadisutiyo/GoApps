@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".RS"></activity>
         <activity android:name=".RSAwalBross"></activity>
+        <activity android:name=".Police"></activity>
+        <activity android:name=".PolsekPBRKota"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 </manifest>

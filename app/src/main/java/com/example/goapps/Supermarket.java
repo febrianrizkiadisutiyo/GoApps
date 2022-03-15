@@ -10,9 +10,9 @@ import android.widget.ListView;
 public class Supermarket extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRS = new String []{"Supermarkets Planet Marpoyan", "Hawali Supermarket",
+        String[] listSupermarket = new String []{"Supermarkets Planet Marpoyan", "Hawali Supermarket",
                 "Giant Ekstra Tuanku Tambusai", "Metro Plaza"};
-        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listRS));
+        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listSupermarket));
     }
 
     protected  void onListItemClick (ListView l, View v, int position, long id){

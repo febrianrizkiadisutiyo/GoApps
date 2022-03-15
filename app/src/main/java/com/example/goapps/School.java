@@ -10,9 +10,9 @@ import android.widget.ListView;
 public class School extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRS = new String []{"SMA Negeri 1 Pekanbaru", "SMK Negeri 1 Pekanbaru",
+        String[] listSchool = new String []{"SMA Negeri 1 Pekanbaru", "SMK Negeri 1 Pekanbaru",
                 "MAN 1 Pekanbaru", "SMK Taruna Pekanbaru"};
-        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listRS));
+        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listSchool));
     }
 
     protected  void onListItemClick (ListView l, View v, int position, long id){
