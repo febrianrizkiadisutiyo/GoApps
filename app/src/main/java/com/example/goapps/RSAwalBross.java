@@ -28,8 +28,8 @@ public class RSAwalBross extends ListActivity {
         try {
             Intent a = null;
             if(pilihan.equals("Call Center")) {
-                String nomortel = "tel.082268665453";
-                a = new Intent(Intent.ACTION_DIAL,Uri.parse(nomortel));
+                String nomorTel ="tel:0761-73646347";
+                a = new Intent(Intent.ACTION_DIAL,Uri.parse(nomorTel));
 
             }else if(pilihan.equals("SMS Center")){
                 String smstext="Febrian Rizki H/L";
