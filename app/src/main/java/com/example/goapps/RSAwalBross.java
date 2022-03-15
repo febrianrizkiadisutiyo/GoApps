@@ -48,7 +48,6 @@ public class RSAwalBross extends ListActivity {
                 a.putExtra(SearchManager.QUERY,"Rumah Sakit Awal Bros");
             }
 
-
             startActivity(a);
         }catch (Exception e){
             e.printStackTrace();
