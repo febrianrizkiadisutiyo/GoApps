@@ -26,7 +26,7 @@ public class School extends ListActivity {
         try {
             Intent a = null;
             if(pilihan.equals("SMA Negeri 1 Pekanbaru")) {
-                a= new Intent(this,School.class);
+                a= new Intent(this,Sman1PBR.class);
 
             }else if(pilihan.equals("SMK Negeri 1 Pekanbaru")){
 

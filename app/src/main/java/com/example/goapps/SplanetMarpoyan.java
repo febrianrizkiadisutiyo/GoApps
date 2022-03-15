@@ -45,6 +45,9 @@ public class SplanetMarpoyan extends ListActivity {
             } else if (pilihan.equals("Info di Google")){
                 a= new Intent(Intent.ACTION_WEB_SEARCH);
                 a.putExtra(SearchManager.QUERY,"Supermarkets Planet Marpoyan");
+            } else if (pilihan.equals("Exit")){
+                finish();
+                System.exit(0);
             }
 
             startActivity(a);
