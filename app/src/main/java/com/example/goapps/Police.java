@@ -10,7 +10,7 @@ import android.widget.ListView;
 public class Police extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRS = new String []{"Polsek Pekanbaru Kota", "Polresta Pekanbaru",
+        String[] listRS = new String []{"Polresta Pekanbaru", "Polsek Pekanbaru Kota",
                 "Polda Riau", "Ditlantas Polda Riau"};
         this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listRS));
     }
@@ -25,10 +25,10 @@ public class Police extends ListActivity {
     private void tampilkanpilihan(String pilihan) {
         try {
             Intent a = null;
-            if(pilihan.equals("Polsek Pekanbaru Kota")) {
-                a= new Intent(this,RSAwalBross.class);
+            if(pilihan.equals("Polresta Pekanbaru")) {
+                a= new Intent(this,PolsekPBRKota.class);
 
-            }else if(pilihan.equals("Polresta Pekanbaru")){
+            }else if(pilihan.equals("Polsek Pekanbaru Kota")){
 
             }
             startActivity(a);

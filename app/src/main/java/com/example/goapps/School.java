@@ -7,11 +7,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Supermarket extends ListActivity {
+public class School extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRS = new String []{"Supermarkets Planet Marpoyan", "Hawali Supermarket",
-                "Giant Ekstra Tuanku Tambusai", "Metro Plaza"};
+        String[] listRS = new String []{"SMA Negeri 1 Pekanbaru", "SMK Negeri 1 Pekanbaru",
+                "MAN 1 Pekanbaru", "SMK Taruna Pekanbaru"};
         this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listRS));
     }
 
@@ -25,10 +25,10 @@ public class Supermarket extends ListActivity {
     private void tampilkanpilihan(String pilihan) {
         try {
             Intent a = null;
-            if(pilihan.equals("Supermarkets Planet Marpoyan")) {
-                a= new Intent(this,SplanetMarpoyan.class);
+            if(pilihan.equals("SMA Negeri 1 Pekanbaru")) {
+                a= new Intent(this,School.class);
 
-            }else if(pilihan.equals("Hawali Supermarket")){
+            }else if(pilihan.equals("SMK Negeri 1 Pekanbaru")){
 
             }
             startActivity(a);
