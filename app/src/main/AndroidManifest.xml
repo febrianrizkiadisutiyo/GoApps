@@ -22,6 +22,10 @@
         <activity android:name=".RSAwalBross"></activity>
         <activity android:name=".Police"></activity>
         <activity android:name=".PolsekPBRKota"></activity>
+        <activity android:name=".Supermarket"></activity>
+        <activity android:name=".SplanetMarpoyan"></activity>
+        <activity android:name=".School"></activity>
+        <activity android:name=".Sman1PBR"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 </manifest>
