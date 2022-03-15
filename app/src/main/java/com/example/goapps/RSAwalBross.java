@@ -16,7 +16,6 @@ public class RSAwalBross extends ListActivity {
                 "Website", "Info di Google","Exit"};
         this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listAct));
     }
-
     protected  void onListItemClick (ListView l, View v, int position, long id){
         super.onListItemClick(l, v,position, id);
         Object o = this.getListAdapter().getItem(position);
