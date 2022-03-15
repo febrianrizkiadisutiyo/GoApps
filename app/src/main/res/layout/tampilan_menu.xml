@@ -21,6 +21,7 @@
         <ImageView
             android:layout_weight="1"
             android:id="@+id/ivPolice"
+            android:onClick="clickPolice"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/police" />
@@ -33,6 +34,7 @@
         <ImageView
             android:layout_weight="1"
             android:id="@+id/ivSchool"
+            android:onClick="clickSuperMarket"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/supermarket" />
@@ -40,6 +42,7 @@
         <ImageView
             android:layout_weight="1"
             android:id="@+id/ivsuperMarket"
+            android:onClick="clickschool"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/school" />

@@ -19,9 +19,19 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,RS.class);
         startActivity(i);
     }
+
     public void clickPolice(View view) {
-        //gambar police diclick
         Intent i = new Intent(this,Police.class);
+        startActivity(i);
+    }
+
+    public void clickSuperMarket(View view) {
+        Intent i = new Intent(this,Supermarket.class);
+        startActivity(i);
+    }
+
+    public void clickschool(View view) {
+        Intent i = new Intent(this,School.class);
         startActivity(i);
     }
 }
